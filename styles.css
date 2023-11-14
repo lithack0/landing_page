@@ -1,0 +1,141 @@
+/* Reset some default styles */
+body, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: #333;
+}
+
+nav {
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background: #ff9005;
+    color: #333;
+    text-align: center;
+    padding: 100px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* About Section */
+.about {
+    background: #F2F2F2;
+    color: #333;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about div {
+    flex: 1;
+    max-width: 500px;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Services Section */
+.services {
+    background: #F8F8F8;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service:nth-child(1) {
+    background: #ffdc09; /* Pale Yellow Background for Service 1 */
+}
+
+.service:nth-child(2) {
+    background: #dbf030; /* Light Blue Background for Service 2 */
+}
+
+.service:nth-child(3) {
+    background: #f9ac1b; /* Light Green Background for Service 3 */
+}
+
+.service:nth-child(4) {
+    background: #fff487; /* Light Pink Background for Service 4 */
+}
+
+.service {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service img {
+    max-width: 50px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    background: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2em;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact input, .contact textarea, .contact button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact button {
+    background: #FFD700;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Hover animations on services */
+.service:hover {
+    transform: scale(1.05);
+}
